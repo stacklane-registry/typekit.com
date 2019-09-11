@@ -6,4 +6,5 @@ stylesheet:
 csp:
   style-src: https://use.typekit.net
   script-src: https://use.typekit.net # no 'unsafe-inline' == font events will not work
+  font-src: https://use.typekit.net
   img-src: https://p.typekit.net
