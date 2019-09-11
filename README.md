@@ -1,6 +1,6 @@
 # typekit.com
 
-Provides a tag for including a specific font from [TypeKit](https://typekit.com), and setting up the appropriate Content-Security-Policy.
+Provides a tag for including a specific font `<link>` from [TypeKit](https://typekit.com), and setting up the appropriate `Content-Security-Policy`.
 
 ## Import
 
@@ -12,7 +12,7 @@ Provides a tag for including a specific font from [TypeKit](https://typekit.com)
 
 ## Tag Usage
 
-Applies the correct Content-Security-Policy and includes the `<link>` for [TypeKit](https://typekit.com).
+Applies the correct `Content-Security-Policy` and includes the `<link>` for [TypeKit](https://typekit.com).
 
 Accepts a single `id` parameter.  The `id` is the unique portion of the URL TypeKit provides, immediately before `.css`.
 
