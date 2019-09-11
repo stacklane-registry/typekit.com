@@ -1,6 +1,9 @@
 stylesheet:
-  href: https://fonts.googleapis.com/css?family={family}&display=swap
-  
+  href: https://use.typekit.net/{id}.css
+
+#https://helpx.adobe.com/fonts/using/content-security-policy.html
+
 csp:
-  style-src: https://fonts.googleapis.com/css
-  font-src: https://fonts.gstatic.com
+  style-src: https://use.typekit.net
+  script-src: https://use.typekit.net # no 'unsafe-inline' == font events will not work
+  img-src: https://p.typekit.net
