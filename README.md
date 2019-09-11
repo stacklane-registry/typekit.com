@@ -1,5 +1,7 @@
 # typekit.com
 
+Provides a tag for including a specific font from [TypeKit](https://typekit.com), and setting up the appropriate Content-Security-Policy.
+
 ## Import
 
 /🔌.yaml
